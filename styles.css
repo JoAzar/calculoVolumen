@@ -1,10 +1,12 @@
 *{
-    padding: 2px;
-    margin: 2px;
+    padding: 0px;
+    margin: 0px;
 }
 
-body{ 
+html, body{ 
+    height: 100%;
     background-color: rgb(29, 29, 29);
+    box-sizing: border-box;
 }
 
 .cajaGrande {
@@ -14,6 +16,53 @@ body{
     justify-content: center;
     align-items: center;
     border: solid 5px rgb(207, 207, 207);
+    background-color: rgb(61, 61, 61);
+    color: rgb(235, 235, 235);
+    text-shadow: 1px 2px 5px white;
+    font-size: 6vh;
+}
+
+.cajaGrandeMenu {
+    border: solid 5px rgb(207, 207, 207);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgb(61, 61, 61);
+    text-shadow: 1px 2px 5px white;
+    font-size: 6vh;
+}
+
+.centrarCaja {
+    justify-content: center;
+    align-items: center;
+}
+
+.cajaCentralTitulo {
+    padding-top: 20px;
+    font-size: 3vh;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.cajaCentralTexto {
+    font-size: 3vh;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+.cajaChicaMenu {
+    text-decoration: none;
     background-color: rgb(61, 61, 61);
     color: rgb(235, 235, 235);
     text-shadow: 1px 2px 5px white;
@@ -48,3 +97,19 @@ body{
     font-size: 3vh;
 }
 
+footer{ 
+    padding: 20px;
+}
+
+.cajaGrandeFooter {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: solid 5px rgb(207, 207, 207);
+    background-color: rgb(61, 61, 61);
+    color: rgb(235, 235, 235);
+    text-shadow: 1px 2px 5px white;
+    font-size: 6vh;
+}
